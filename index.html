@@ -7,32 +7,31 @@
     <title>Document</title>
 </head>
 <style>
-    
+    body{
+        background: url("175932.webp");
+    }
     h1{
         font-family: 'Times New Roman', Times, serif;
        color: chocolate;
     }
-    .name{
-        color: blue;
-        background-color:rgb(179, 245, 219) ;
-    }
+    
     button{
         background-color: red;
         color:aliceblue
     }
+
 </style>
 <body>
     <center>
-    
     <h1 allign="center">Employee Form</h1>
     <form class="name">
-        Enter your name:<input type="text"><br><br>
+        Enter your name:<input type="text" value="Enter your name"><br><br>
 
-        Enter your department:<input type="text"><br><br>
+        Enter your department:<input type="text" value="Enter your department"><br><br>
 
         Tell us a little about yourself:<input type="text"><br><br>
 
-        Do you exercise at home? <input type="radio"> Yes <input type="radio"> No<br><br>
+        Do you exercise at home? <input type="radio" name="exercise"> Yes <input type="radio" name="exercise"> No<br><br>
 
         How do you like to read about your favourite topics?<br><br>
 
@@ -46,5 +45,6 @@
         </select><br><br>
         <button>Submit form</button>
     </form>
+</table>
 </body>
 </html>
